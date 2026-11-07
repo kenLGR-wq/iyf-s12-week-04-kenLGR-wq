@@ -1,24 +1,31 @@
+
+function showMessage() {
+    document.getElementById("message").textContent =
+        "Congratulations! JavaScript is working successfully!";
+}
+
+// Variables
 let name = "Kibet Ken";
 let age = 21;
 const birthYear = 2005;
 
+// Display variables
 console.log("Name:", name);
 console.log("Age:", age);
-console.log("Birth year:", birthYear);
+console.log("Birth Year:", birthYear);
 
+// Data types
+console.log(typeof name);
+console.log(typeof age);
+console.log(typeof true);
 
-console.log(typeof name);   // string
-console.log(typeof age);    // number
-console.log(typeof true);   // boolean
-
+// let example
 let score = 100;
-console.log("Initial score:", score);
-
 score = 150;
+
 console.log("Updated score:", score);
 
+// const example
 const PI = 3.14159;
-console.log("Value of PI:", PI);
+console.log("PI:", PI);
 
-
-console.log("JavaScript setup successful!");
